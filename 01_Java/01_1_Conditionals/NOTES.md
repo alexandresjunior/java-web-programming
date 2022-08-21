@@ -1,10 +1,9 @@
-# Lecture #02 - Conditionals - Notes
+# Lecture #01.1 - Conditionals - Notes
 
 ## Summary
 
 You now have the power within Java to use conditional statements to ask questions and have your program take action accordingly. In this lecture, we will discuss…
 
-- Conditionals;
 - `if` Statements;
 - Control flow;
 - OR Operator `||`;
