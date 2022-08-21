@@ -2,7 +2,7 @@
 
 ## Summary
 
-Errors are inevitable in your code. However, you have the opportunity to use what was learned today to help prevent these errors. In this lecture, you will learn about…
+* Errors are inevitable in your code. However, you have the opportunity to use what was learned today to help prevent these errors. In this lecture, you will learn about…
 
 * Runtime Errors
 * `try/catch`
@@ -52,7 +52,7 @@ Errors are inevitable in your code. However, you have the opportunity to use wha
 * If we run this program and type in “cat”, we’ll suddenly see "InputMismatchException" error, as Java compiler expects a `float` number.
 * An effective strategy to fix this potential error would be to create “error handling” to ensure the user behaves as we intend.
 
-## try / catch
+## try/catch
 
 * In Java, we can use `try/catch` statements for testing out user input before something goes wrong. Modify your code as follows:
 
@@ -108,3 +108,4 @@ Errors are inevitable in your code. However, you have the opportunity to use wha
         }
     }
     ```
+>>>>>>> f70f56f (Add exceptions lecture)
