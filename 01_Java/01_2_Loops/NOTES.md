@@ -1,12 +1,12 @@
-# Lecture #02 - Loops - Notes
+# Lecture #01.2 - Loops - Notes
 
 ## Summary
 
 You now have another power in your growing list of your Java abilities. In this lecture we will address…
 
-* while
-* for
-* List
+* `while` loops
+* `for` loops
+* Lists
 
 ## Loops
 
@@ -25,7 +25,6 @@ You now have another power in your growing list of your Java abilities. In this 
     ```
 
 * Running this code, you’ll notice that the program says "Hello!" three times.
-
 * In developing as a programmer, you want to consider how one could improve areas of one’s code where one types the same thing over and over again. Imagine where one might want to say “Hello!” 500 times. Would it be logical to type that same expression of `System.out.println("Hello!") over and over again?
 * Loops enable you to create a block of code that executes over and over again.
 
@@ -118,8 +117,6 @@ You now have another power in your growing list of your Java abilities. In this 
 * For example, let’s try prompting the user for a number greater than or equal 0:
 
     ```
-import java.util.Scanner;
-
     public class Hello {
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
@@ -176,7 +173,7 @@ import java.util.Scanner;
 
 * Notice how this `while` loop will always run (forever) until `n` is greater than 0. When `n` is greater than 0, the loop breaks.
 
-## More About Lists
+## Lists
 
 * Consider the world of Hogwarts from the famed Harry Potter universe.
 * Now we wish to have a list of students with their names as below. Just as we illustrated previously, we can use a loop to iterate over the list.
